@@ -90,6 +90,7 @@
         </div>
         <!-- Navbar & Hero End -->
 
+
         <!-- Modal Search Start -->
         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
@@ -106,14 +107,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
         <!-- Modal Search End -->
+        <div class="carousel-caption-inner text-center p-1">
+        <h1 class="display-2 text-capitalize text-info mb-1">dashboard</h1></div>
 
         <!-- Carousel Start -->
-        <div class="header-carousel owl-carousel">
+        <!-- <div class="header-carousel owl-carousel">
             <div class="header-carousel-item">
                 <div class="header-carousel-item-img-1">
-                    <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/creditgiven.jpg" class="img-fluid w-100" alt="Image">
                 </div>
                 <div class="carousel-caption">
                     <div class="carousel-caption-inner text-start p-3">
@@ -127,7 +130,7 @@
             </div>
             <div class="header-carousel-item mx-auto">
                 <div class="header-carousel-item-img-2">
-                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/debitpay.jpg" class="img-fluid w-100" alt="Image">
                 </div>
                 <div class="carousel-caption">
                     <div class="carousel-caption-inner text-center p-3">
@@ -153,7 +156,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Carousel End -->
 
 
@@ -171,9 +174,12 @@
                         <h4 class="text-primary">About Us</h4>
                         <h1 class="display-5 mb-4">Sri Lanka's Most Trusted Credit Collection Center
                             PayGlitz (Private) Limited</h1>
-                        <p class="text ps-4 mb-4">Credit and Collections means, without limitation, review and approval of all retailer and consumer orders against credit lines that have been established by Buyer and guidelines for which have been provided to Service Provider by Buyer and collection of customer accounts.
+                        <p class="text ps-4 mb-4">Extension of Credit and Collections: In the event Buyer 
+                            designates the collecting bank, it shall be responsible to Seller for any loss 
+                            or damage to Seller by reason of any failure or default, on the part of said bank 
+                            in connection with payment by Buyer under the Agreement.
                         </p>
-                        <div class="row g-4 justify-content-between mb-5">
+                        <!-- <div class="row g-4 justify-content-between mb-5">
                             <div class="col-lg-6 col-xl-5">
                                 <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Strategy & Consulting</p>
                                 <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Business Process</p>
@@ -182,8 +188,8 @@
                                 <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Marketing Rules</p>
                                 <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Partnerships</p>
                             </div>
-                        </div>
-                        <div class="row g-4 justify-content-between mb-5">
+                        </div> -->
+                        <!-- <div class="row g-4 justify-content-between mb-5">
                             <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
                             <div class="col-xl-7 mb-5">
                                 <div class="about-customer d-flex position-relative">
@@ -197,7 +203,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row g-4 text-center align-items-center justify-content-center">
                             <div class="col-sm-4">
                                 <div class="bg-primary rounded p-4">
@@ -251,12 +257,12 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item bg-light rounded">
                             <div class="service-img">
-                                <img src="img/service-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                <img src="img/recieve.jpg" class="img-fluid w-100 rounded-top" alt="">
                             </div>
                             <div class="service-content text-center p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i>  business of providing loans</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
+                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i>  Acounts recievable solution</a>
+                                    <p class="mb-4">Receiving payments on time can be challengin. Our accounts receivable services offers  support where ,when and how you need it.
                                     </p>
                                     <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -266,13 +272,12 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item bg-light rounded">
                             <div class="service-img">
-                                <img src="img/service-2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                <img src="img/legal.jpg" class="img-fluid w-100 rounded-top" alt="">
                             </div>
                             <div class="service-content text-center p-4">
                                 <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Consultancy & Advice</a>
-                                    <p class="mb-4">clients achieve their business goals by providing expert advice in their field of proficiency. They work
-                                         with their clients and advise them on matters such as finance, marketing, sales, operations among others
+                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Legal Collection </a>
+                                    <p class="mb-4">Atradius Legal Collection helps  you take action against your debtor,wherever they are in the world. we provide proffessional advice,expected outcomes and aceess to a global network of lawyers.
                                     </p>
                                     <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
                                 </div>
@@ -704,7 +709,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
+                                <h4 class="text-white mb-4">comments</h4>
                                 <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
                                 <div class="position-relative mx-auto rounded-pill">
                                     <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
@@ -716,7 +721,7 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="index.php"><i class="fas fa-angle-right me-2"></i> Home</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>

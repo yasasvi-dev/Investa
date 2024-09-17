@@ -46,6 +46,7 @@ include "head.php";
                  <button class="btn btn-grad w-25 text-uppercase" type="submit" name="button">Sign in</button>
 				 </div>
 				</form>
+				<a href="index.php" class="nav-item nav-link"><b>Log out</b></a>
 			  <div id='creditdata'></div> 
             </div>
 
