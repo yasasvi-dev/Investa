@@ -565,7 +565,7 @@
                         <div class="h-100 rounded">
                             <h4 class="text-primary">Our Feedbacks </h4>
                             <h1 class="display-4 mb-4">Clients are Talking</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque soluta unde itaque. Consequatur quam odit blanditiis harum veritatis porro.</p>
+                            <p class="mb-4">Here are the results of last year’s survey. Key facts include 78% of our customers tell us that we were able to pay them quickly after collecting on a debt. 82% of our customers confirmed that thier requests were handled well and with care by our customer services team. 84% of our customers state that they would work with us again.</p>
                             <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -574,13 +574,14 @@
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Having one single person as a permanent contact makes for a very effective working relationship. He links up with the local Atradius collectors, who have local expertise and know the procedures and regulations in the countries where they work. Atradius Collections reports straightforward and totally transparent.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Stefan Craciun</h5>
+                                        <p class="mb-0">Senior Manager Credit & Collection
+                                        Colt Technology Services</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
                                         <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
@@ -590,13 +591,13 @@
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">Our collections experience with Atradius Collections has been very good in terms of both results & the support we have received. We enjoy a good working relationship with Atradius staff & find them to be responsive to our inquiries and needs. I would recommend Atradius Collections to any company. This flexibility has always suited our business requirements perfectly.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Paul Brunner</h5>
+                                        <p class="mb-0">CICP Corporate Collection Manager</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
                                         <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
@@ -606,13 +607,14 @@
                             <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
                                 <div class="d-flex">
                                     <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
+                                    <p class="mt-4">We hired Atradius Collections to manage a part of our international debt collections in early 2010. Their global agency network and ability to collect world-wide, as well as their leading position as part of the Atradius Credit Insurance Group were the initial drivers.We would highly recommend them to any company as an essential part of their debt collection
+                                    process.
                                     </p>
                                 </div>
                                 <div class="d-flex justify-content-end">
                                     <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
+                                        <h5>Robert Andrew</h5>
+                                        <p class="mb-0">SACS Coperative Unit</p>
                                     </div>
                                     <div class="bg-white rounded-circle ms-3">
                                         <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
@@ -628,7 +630,7 @@
 
 
         <!-- FAQ Start -->
-        <div class="container-fluid faq py-5">
+        <!-- <div class="container-fluid faq py-5">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
@@ -699,7 +701,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- FAQ End -->
 
         <!-- Footer Start -->
@@ -722,7 +724,7 @@
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Explore</h4>
                             <a href="index.php"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="#"><i class="fas fa-angle-right me-2"></i> Dashboard</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>

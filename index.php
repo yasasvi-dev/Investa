@@ -67,7 +67,7 @@
                             <a href="index.php" class="nav-item nav-link active">Home</a>
                             <a href="dashboard.php" class="nav-item nav-link">Dashboard</a>
                             <a href="service.php" class="nav-item nav-link">Services</a>
-                            <a href="project.php" class="nav-item nav-link">Projects</a>
+                            <!-- <a href="project.php" class="nav-item nav-link">Projects</a> -->
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Client Portal</a>
                                 <div class="dropdown-menu m-0">
@@ -78,6 +78,7 @@
                                     <a href="ccc.php" class="dropdown-item">ccc</a>
                                 </div>
                             </div>
+                            <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                             <a href="login.php" class="nav-item nav-link">Login</a>
                         </div>
                         <div class="d-flex align-items-center flex-nowrap pt-xl-0">
