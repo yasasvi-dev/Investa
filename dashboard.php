@@ -30,9 +30,9 @@
                 <div class="row gx-0 align-items-center" style="height: 45px;">
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Srilanka</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+09123456789</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>PayGlitz@gmail.com</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-danger me-2"></i>Srilanka</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone text-primary me-2"></i>+09123456789</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-light me-2"></i>PayGlitz@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -66,8 +66,7 @@
                         <div class="navbar-nav ms-auto py-0">
                             <a href="index.php" class="nav-item nav-link active">Home</a>
                             <a href="dashboard.php" class="nav-item nav-link">Dashboard</a>
-                            <a href="service.php" class="nav-item nav-link">Services</a>
-                            <a href="project.php" class="nav-item nav-link">Projects</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Client Portal</a>
                                 <div class="dropdown-menu m-0">
@@ -75,7 +74,6 @@
                                     <a href="creditbill.php" class="dropdown-item">Credit Bill</a>
                                     <a href="collection.php" class="dropdown-item">Collection</a>
                                     <a href="report.php" class="dropdown-item">Report</a>
-                                    <a href="ccc.php" class="dropdown-item">ccc</a>
                                 </div>
                             </div>
                             <a href="login.php" class="nav-item nav-link">Login</a>
@@ -158,7 +156,7 @@
             </div>
         </div> -->
         <!-- Carousel End -->
-
+        
 
         <!-- About Start -->
         <div class="container-fluid about bg-light py-5">
@@ -705,14 +703,14 @@
         <!-- FAQ End -->
 
         <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">comments</h4>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                                <h4 class="text-white mb-4">PayGlitz</h4>
+                                <p class="mb-3">Most organizations, as practiced globally, solicit the services of External Collection Agencies to handle their collection and recovery functions. It is important that a Collection Agency with expertise and credentials is selected for this task</p>
                                 <div class="position-relative mx-auto rounded-pill">
                                     <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
                                     <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
@@ -724,12 +722,12 @@
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Explore</h4>
                             <a href="index.php"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Dashboard</a>
+                            <a href="dashboard.php"><i class="fas fa-angle-right me-2"></i> Dashboard</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Our Team</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">

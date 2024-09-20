@@ -18,8 +18,8 @@ $myclass=new sqlobj($bdd);
 $str1="select * from customer";
 $rec=$myclass->getlines($str1);
 echo  "count of $rec";
-$cid=$myclass->maxacno("customer",array(),"cid");
-echo "cid is $cid";
+$cid=$myclass->maxacno("customer",array(),"cno");
+echo "cno is $cid";
 $ck=$_COOKIE["login"]; echo  "cook is $ck";
 $ckarr =explode(":",$ck);echo "clevel is $ckarr[1]";
 $clevel=$ckarr[1];
@@ -68,9 +68,9 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav ms-auto py-0">
                             <a href="index.php" class="nav-item nav-link active">Home</a>
-                            <a href="accounts.php" class="nav-item nav-link">Accounts</a>
-                            <a href="service.php" class="nav-item nav-link">Services</a>
-                            <a href="project.php" class="nav-item nav-link">Projects</a>
+                            <a href="dashboard.php" class="nav-item nav-link">Dashboard</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact Us</a>
+                            
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Client Portal</a>
                                 <div class="dropdown-menu m-0">
@@ -127,10 +127,10 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
               <form id="loginform" action="#" method="post">
                 <div class="row">
                   <div class="col">
-                    <!-- <p class="white"><b>Customer ID</b></p>
+                    <!-- <p class="white"><b>Customer Number</b></p>
                   </div>
                   <div class="col">
-                    <input type="" id="cid" class="form-control border-light rounded-pill w-75" name="cid" required>
+                    <input type="" id="cno" class="form-control border-light rounded-pill w-75" name="cno" required>
                   </div>
                 </div><br> -->
                 <div class="row">
@@ -162,86 +162,7 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                  <button class="bg-dark-500 hover:bg-dark-700 text-primary font-bold py-2 px-4 rounded shadow-md transition-all duration-200 ease-in-out" type="button" name="button" onclick="custreg()">Register</button>
               </form>
               
-              <!-- About Start -->
-        <div class="container-fluid about bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="about-img">
-                            <img src="img/dollars.jpg" class="img-fluid w-100 rounded-top bg-white" alt="Image">
-                            <img src="img/about-2.jpg" class="img-fluid w-100 rounded-bottom" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h4 class="text-primary">About Us</h4>
-                        <h1 class="display-5 mb-4">The most Profitable Investments company in worldwide.</h1>
-                        <p class="text ps-4 mb-4">Credit and Collections means, without limitation, review and approval of all retailer and consumer orders against credit lines that have been established by Buyer and guidelines for which have been provided to Service Provider by Buyer and collection of customer accounts.
-                        </p>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-lg-6 col-xl-5">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Strategy & Consulting</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Business Process</p>
-                            </div>
-                            <div class="col-lg-6 col-xl-7">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Marketing Rules</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Partnerships</p>
-                            </div>
-                        </div>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
-                            <div class="col-xl-7 mb-5">
-                                <div class="about-customer d-flex position-relative">
-                                    <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;"  alt="Image">
-                                    <img src="img/customer-img-2.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 45px; top: 0;" alt="Image">
-                                    <img src="img/customer-img-3.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 90px; top: 0;" alt="Image">
-                                    <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 135px; top: 0;" alt="Image">
-                                    <div class="position-absolute text-dark" style="left: 220px; top: 10px;">
-                                        <p class="mb-0">5m+ Trusted</p>
-                                        <p class="mb-0">Global Customers</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row g-4 text-center align-items-center justify-content-center">
-                            <div class="col-sm-4">
-                                <div class="bg-primary rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">32</span>
-                                        <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">k+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0">Project Complete</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="bg-dark rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">21</span>
-                                        <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="mb-0">Years Of Experience</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="bg-primary rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-dark" data-toggle="counter-up">97</span>
-                                        <h4 class="text-dark fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0">Team Members</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
+              
          
 
               <br>

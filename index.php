@@ -30,9 +30,9 @@
                 <div class="row gx-0 align-items-center" style="height: 45px;">
                     <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                         <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Srilanka</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+09123456789</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>PayGlitz@gmail.com</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-danger me-2"></i><b>Srilanka</b></a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone text-primary me-2"></i><b>+091 234 5678</b></a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-light me-2"></i><b>PayGlitz@gmail.com</b></a>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">
@@ -66,7 +66,7 @@
                         <div class="navbar-nav ms-auto py-0">
                             <a href="index.php" class="nav-item nav-link active">Home</a>
                             <a href="dashboard.php" class="nav-item nav-link">Dashboard</a>
-                            <a href="service.php" class="nav-item nav-link">Services</a>
+                            <!-- <a href="service.php" class="nav-item nav-link">Services</a> -->
                             <!-- <a href="project.php" class="nav-item nav-link">Projects</a> -->
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Client Portal</a>
@@ -75,7 +75,7 @@
                                     <a href="creditbill.php" class="dropdown-item">Credit Bill</a>
                                     <a href="collection.php" class="dropdown-item">Collection</a>
                                     <a href="report.php" class="dropdown-item">Report</a>
-                                    <a href="ccc.php" class="dropdown-item">ccc</a>
+                                    <!-- <a href="ccc.php" class="dropdown-item">ccc</a> -->
                                 </div>
                             </div>
                             <a href="contact.php" class="nav-item nav-link">Contact Us</a>
@@ -121,8 +121,8 @@
                         <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">Premier Debt Recovery Agency in Sri Lanka</h1>
                         <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We at payglitz credit collection center, also known as PayGlitz, follow proper credit collection strategies and monitor every account closely with a professional, trustworthy staff. 
                         </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Read More</a>
+                        <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Apply Now</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">Read More</a> -->
                     </div>
                 </div>
             </div>
@@ -132,11 +132,11 @@
                 </div>
                 <div class="carousel-caption">
                     <div class="carousel-caption-inner text-center p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4">Premier Debt Recovery Agency in Sri Lanka</h1>
+                        <h1 class="display-1 text-capitalize text-white mb-4">Experience the PayGlitz Difference</h1>
                         <p class="mb-5 fs-5"> In order to be successful, we believe discipline and punctuality are two most essential traits required in a professional. 
                         </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                        <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a> -->
                     </div>
                 </div>
             </div>
@@ -146,11 +146,11 @@
                 </div>
                 <div class="carousel-caption">
                     <div class="carousel-caption-inner text-end p-3">
-                        <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious Investments company in worldwide.</h1>
+                        <h1 class="display-1 text-capitalize text-white mb-4">Trusted Solutions for Debt Recovery</h1>
                         <p class="mb-5 fs-5"> In addition, as professional organization, we educate our employees time-to-time and look after their well-being to enhance productivity.  
                         </p>
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                        <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
+                        <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a> -->
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                             </div>
                         </div>
                         <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
+                            <div class="col-xl-5"><a href="dashboard.php" class="btn btn-primary rounded-pill py-3 px-5">Discover More</a></div>
                             <div class="col-xl-7 mb-5">
                                 <div class="about-customer d-flex position-relative">
                                     <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;"  alt="Image">
@@ -241,218 +241,10 @@
         <!-- About End -->
 
 
-        <!-- Services Start -->
-        <div class="container-fluid service py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-4"> Offering the Best Consulting & PayGlitz Services</h1>
-                </div>
-                <div class="row g-4 justify-content-center text-center">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-light rounded">
-                            <div class="service-img">
-                                <img src="img/service-1.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="service-content text-center p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i>  business of providing loans</a>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nobis est sapiente natus officiis maxime
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-light rounded">
-                            <div class="service-img">
-                                <img src="img/service-2.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="service-content text-center p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Consultancy & Advice</a>
-                                    <p class="mb-4">clients achieve their business goals by providing expert advice in their field of proficiency. They work
-                                         with their clients and advise them on matters such as finance, marketing, sales, operations among others
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-light rounded">
-                            <div class="service-img">
-                                <img src="img/service-4.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="service-content text-center p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i>  involving the recovery of past due payments from borrowers</a>
-                                    <p class="mb-4"> 
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="service-item bg-light rounded">
-                            <div class="service-img">
-                                <img src="img/service-3.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            </div>
-                            <div class="service-content text-center p-4">
-                                <div class="service-content-inner">
-                                    <a href="#" class="h4 mb-4 d-inline-flex text-start"><i class="fas fa-donate fa-2x me-2"></i> Private Client Investment</a>
-                                    <p class="mb-4">
-                                    </p>
-                                    <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <a class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.1s" href="#">Services More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Services End -->
+        
 
 
-        <!-- Project Start -->
-        <div class="container-fluid project">
-            <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Projects</h4>
-                    <h1 class="display-4">Explore Our Latest Projects</h1>
-                </div>
-                <div class="project-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="project-img">
-                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                        </div>
-                        <div class="project-content bg-light rounded p-4">
-                            <div class="project-content-inner">
-                                <div class="project-icon mb-3"><i class="fas fa-chart-line fa-4x text-primary"></i></div>
-                                <p class="text-dark fs-5 mb-3">Business Growth</p>
-                                <a href="#" class="h4">Business Strategy And Investment Planning Growth Consulting</a>
-                                <div class="pt-4">
-                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="project-img">
-                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                        </div>
-                        <div class="project-content bg-light rounded p-4">
-                            <div class="project-content-inner">
-                                <div class="project-icon mb-3"><i class="fas fa-signal fa-4x text-primary"></i></div>
-                                <p class="text-dark fs-5 mb-3">Marketing Strategy</p>
-                                <a href="#" class="h4">Product Sailing Marketing Strategy For Improve Business</a>
-                                <div class="pt-4">
-                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-item h-100">
-                        <div class="project-img">
-                            <img src="img/projects-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                        </div>
-                        <div class="project-content bg-light rounded p-4">
-                            <div class="project-content-inner">
-                                <div class="project-icon mb-3"><i class="fas fa-signal fa-4x text-primary"></i></div>
-                                <p class="text-dark fs-5 mb-3">Marketing Strategy</p>
-                                <a href="#" class="h4">Product Sailing Marketing Strategy For Improve Business</a>
-                                <div class="pt-4">
-                                    <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Project End -->
-
-
-        <!-- Blog Start -->
-        <div class="container-fluid blog pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Blogs</h4>
-                    <h1 class="display-4">Latest Articles & News from the Blogs</h1>
-                </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png);">
-                            <div class="mb-4">
-                                <h4 class="text-primary mb-2">Investment</h4>
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0"><span class="text-dark fw-bold">On</span> Mar 14, 2024</p>
-                                    <p class="mb-0"><span class="text-dark fw-bold">By</span> Mark D. Brock</p>
-                                </div>
-                            </div>
-                            <div class="project-img">
-                                <img src="img/blog-1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                <div class="blog-plus-icon">
-                                    <a href="img/blog-1.jpg" data-lightbox="blog-1" class="btn btn-primary btn-md-square rounded-pill"><i class="fas fa-plus fa-1x"></i></a>
-                                </div>
-                            </div>
-                            <div class="my-4">
-                                <a href="#" class="h4">Revisiting Your Investment & Distribution Goals</a>
-                            </div>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Explore More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png);">
-                            <div class="mb-4">
-                                <h4 class="text-primary mb-2">Business</h4>
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0"><span class="text-dark fw-bold">On</span> Mar 14, 2024</p>
-                                    <p class="mb-0"><span class="text-dark fw-bold">By</span> Mark D. Brock</p>
-                                </div>
-                            </div>
-                            <div class="project-img">
-                                <img src="img/blog-2.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                <div class="blog-plus-icon">
-                                    <a href="img/blog-2.jpg" data-lightbox="blog-2" class="btn btn-primary btn-md-square rounded-pill"><i class="fas fa-plus fa-1x"></i></a>
-                                </div>
-                            </div>
-                            <div class="my-4">
-                                <a href="#" class="h4">Dimensional Fund Advisors Interview with Director</a>
-                            </div>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Explore More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png);">
-                            <div class="mb-4">
-                                <h4 class="text-primary mb-2">Consulting</h4>
-                                <div class="d-flex justify-content-between">
-                                    <p class="mb-0"><span class="text-dark fw-bold">On</span> Mar 14, 2024</p>
-                                    <p class="mb-0"><span class="text-dark fw-bold">By</span> Mark D. Brock</p>
-                                </div>
-                            </div>
-                            <div class="project-img">
-                                <img src="img/blog-3.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                <div class="blog-plus-icon">
-                                    <a href="img/blog-3.jpg" data-lightbox="blog-3" class="btn btn-primary btn-md-square rounded-pill"><i class="fas fa-plus fa-1x"></i></a>
-                                </div>
-                            </div>
-                            <div class="my-4">
-                                <a href="#" class="h4">Interested in Giving Back this year? Here are some tips</a>
-                            </div>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Explore More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
+        
 
 
         <!-- Team Start -->
@@ -478,8 +270,8 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">Sarah jhonson</h4>
+                                    <p class="text-muted mb-0">Manager</p>
                                 </div>
                             </div>
                         </div>
@@ -499,8 +291,8 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">William Anderson</h4>
+                                    <p class="text-muted mb-0">CTO</p>
                                 </div>
                             </div>
                         </div>
@@ -520,8 +312,8 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">Amanda Fernando</h4>
+                                    <p class="text-muted mb-0">Accountant</p>
                                 </div>
                             </div>
                         </div>
@@ -541,8 +333,8 @@
                             </div>
                             <div class="team-content bg-dark text-center rounded-bottom p-4">
                                 <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">Mark D. Brock</h4>
-                                    <p class="text-muted mb-0">CEO & Founder</p>
+                                    <h4 class="text-white">Josaph</h4>
+                                    <p class="text-muted mb-0">Chief Executive Officer</p>
                                 </div>
                             </div>
                         </div>
@@ -553,74 +345,7 @@
         <!-- Team End -->
 
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-4 align-items-center">
-                    <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="h-100 rounded">
-                            <h4 class="text-primary">Our Feedbacks </h4>
-                            <h1 class="display-4 mb-4">Clients are Talking</h1>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque soluta unde itaque. Consequatur quam odit blanditiis harum veritatis porro.</p>
-                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read All Reviews <i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-8">
-                        <div class="testimonial-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="d-flex">
-                                    <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
-                                    </div>
-                                    <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-1.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="d-flex">
-                                    <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
-                                    </div>
-                                    <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-2.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
-                                <div class="d-flex">
-                                    <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                                    <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae doloribus iure,
-                                    </p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <div class="my-auto text-end">
-                                        <h5>Person Name</h5>
-                                        <p class="mb-0">Profession</p>
-                                    </div>
-                                    <div class="bg-white rounded-circle ms-3">
-                                        <img src="img/testimonial-3.jpg" class="rounded-circle p-2" style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
+        
 
 
         <!-- FAQ Start -->
@@ -636,52 +361,55 @@
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseTOne">
-                                        What Does a Financial Advisor Do?
+                                    What is a credit collection center?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        
+                                        <p>A credit collection center is a company that specializes in recovering overdue debts on behalf of businesses. They use various strategies and tactics to collect outstanding payments.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        What industries do you specialize in? 
+                                    How does a credit collection center work?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        
+                                        <p>Typically, a business will hire a credit collection center to handle their delinquent accounts. The center will then contact the debtors to request payment. They may use different methods, such as phone calls, letters, or emails.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-4">
                                 <h2 class="accordion-header" id="headingThree">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Can you guarantee for growth?
+                                    What is the typical debt collection process?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        <h5><b>The process usually involves:</b></h5>
+                                        <ul><p><li><b><i>Initial contact:</li></b></i> The collection center will attempt to contact the debtor to request payment.<br>
+                                        <li><b><i>Negotiation:</li></b></i> If the debtor is unable to pay the full amount immediately, the center may negotiate a payment plan.<br>
+                                        <li><b><i>Legal action:</li></b></i> If necessary, the collection center may take legal action to recover the debt, such as filing a lawsuit or obtaining a judgment.</p>
+</ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item border-0 mb-0">
                                 <h2 class="accordion-header" id="headingFour">
                                     <button class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        What makes your business plans so special?
+                                    How long does the debt collection process take?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div class="accordion-body my-2">
-                                        <h5>Dolor sit amet consectetur adipisicing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nemo impedit, sapiente quis illo quia nulla atque maxime fuga minima ipsa quae cum consequatur, sit, delectus exercitationem odit officiis maiores! Neque, quidem corrupti modi architecto eos saepe incidunt dignissimos rerum.</p>
+                                        
+                                        <p>The duration of the process can vary depending on factors such as the debtor's cooperation, the amount of debt, and the legal complexities involved. It can range from a few weeks to several months.</p>
                                     </div>
                                 </div>
                             </div>
@@ -690,7 +418,7 @@
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
                         <div class="faq-img RotateMoveRight rounded">
                             <img src="img/faq-img.jpg" class="img-fluid rounded w-100" alt="Image">
-                            <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="#">Read More Q & A <i class="fas fa-arrow-right ms-2"></i></a>
+                            <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="dashboard.php">Read More Q & A <i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -699,14 +427,14 @@
         <!-- FAQ End -->
 
         <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <div class="footer-item">
-                                <h4 class="text-white mb-4">Newsletter</h4>
-                                <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
+                                <h4 class="text-white mb-4">PayGlitz</h4>
+                                <p class="mb-3">Most organizations, as practiced globally, solicit the services of External Collection Agencies to handle their collection and recovery functions. It is important that a Collection Agency with expertise and credentials is selected for this task</p>
                                 <div class="position-relative mx-auto rounded-pill">
                                     <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
                                     <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
@@ -717,8 +445,8 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                            <a href="index.php"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="dashboard.php"><i class="fas fa-angle-right me-2"></i> Dashboard</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> Latest Projects</a>
                             <a href="#"><i class="fas fa-angle-right me-2"></i> testimonial</a>

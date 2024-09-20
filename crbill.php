@@ -7,7 +7,7 @@ $ck = explode(':', $cookie);
 $cno = $ck[1];
 echo "cookie is".$cookie;
 
-$cno = $myclass -> maxacno("customer",array(),"cno");
+$cno = $myclass -> maxacno("account",array(),"cno");
 $vals=$_POST["pvals"];
 
 // echo $vals;
@@ -17,7 +17,7 @@ $vals=$_POST["pvals"];
 // $row1=$rs1->fetch();
 // $cid=$row1[0]+1;
 // if($vals[3]==0){
-$str1="INSERT into customer values($cno,'$vals[1]','$vals[2]','$vals[3]')";
+$str1="INSERT into account values('$vals[1]','$vals[0]','$vals[2]',$cno,'$vals[3]')";
 
 // else{
 // $str1="update hotels set hname='$vals[0]',hadd='$vals[1]',htel='$vals[2]',
