@@ -31,7 +31,7 @@ include "head.php";
                     <p class="white"><b>Username <span class="text-danger">* </span></b></p>
                   </div>
                   <div class="col">
-                    <input type="text" id="cname" class="form-control border-light rounded-pill w-75" name="cname" minlength="5" required>
+                    <input type="text" id="uname" class="form-control border-light rounded-pill w-75" name="uname" minlength="5" required>
                   </div>
                 </div>
                 <br>
@@ -40,7 +40,7 @@ include "head.php";
                     <p class="white"><b>Password</b></p>
                   </div>
                   <div class="col">
-                    <input type="password" id="cpword" class="form-control border-light rounded-pill w-75" name="cpword" required>
+                    <input type="password" id="upword" class="form-control border-light rounded-pill w-75" name="upword" required>
                   </div>
                 </div><br>
                  <button class="btn btn-grad w-25 text-uppercase" type="submit" name="button">Sign in</button>
@@ -65,10 +65,13 @@ include "head.php";
 	wow.init();
 $(document).ready(function(e) {
 $("#loginform").submit( function (e){
-	
 	// e.preventdefault();
 	var vals =$(':input').map(function(){ return $(this).val() }).get();
-	alert("success");
+alert(vals);
+vals = vals.filter(function(value) {
+                        return value !== "";
+                    });
+
 $.ajax({
 	type:'post',
 	data:{vals:vals},
