@@ -3,7 +3,7 @@ include "dbase.php";
 $val2=$_POST["vals"];
 $cook="0:NO";
 
-$str1 ="SELECT * FROM users WHERE uname ='$val2[0]' AND upword ='$val2[3]'";
+$str1 ="SELECT * FROM users WHERE uname ='$val2[1]' AND upword ='$val2[3]'";
 $rs1=$bdd->query($str1) or die("error on $str1");
 $i1=$rs1->rowcount();
 if ($i1>0){
