@@ -13,8 +13,8 @@ include "head.php";
 </head>
 
 
-<body class="img js-fullheight bg-light" style="background-image: url(img/credit.jpeg);">
-<form class="card p-4" method="post" id="formfacid" style="background-color: rgba(255, 255, 255, 0.4);">
+<!-- <body class="img js-fullheight bg-light" style="background-image: url(img/credit.jpeg);">
+	<form class="card p-4" method="post" id="formfacid" style="background-color: rgba(255, 255, 255, 0.4);"> -->
 <!-- <section class=" section-padding bg-info bg-gradient" > -->
 
   <div class="container">
@@ -46,6 +46,7 @@ include "head.php";
                  <button class="btn btn-grad w-25 text-uppercase" type="submit" name="button">Sign in</button>
 				 </div>
 				</form>
+				<a href="customer.php" class="nav-item nav-link"><b>sign in</b></a>
 				<a href="index.php" class="nav-item nav-link"><b>Log out</b></a>
 			  <div id='creditdata'></div> 
             </div>
@@ -65,9 +66,9 @@ include "head.php";
 $(document).ready(function(e) {
 $("#loginform").submit( function (e){
 	
-	e.preventdefault();
-	var vals =$("input").map(function(){ return $(this).val() }).get();
-	// alert(vals);
+	// e.preventdefault();
+	var vals =$(':input').map(function(){ return $(this).val() }).get();
+	alert("success");
 $.ajax({
 	type:'post',
 	data:{vals:vals},
