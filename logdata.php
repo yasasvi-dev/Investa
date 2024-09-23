@@ -1,22 +1,22 @@
 <?php
 include "dbase.php";
-$val2=$_POST["vals"];
-$cook="0:NO";
+$val2 = $_POST["vals"];
+$cook = "0:NO";
 
-$str1 ="SELECT * FROM users WHERE uname ='$val2[1]' AND upword ='$val2[3]'";
-$rs1=$bdd->query($str1) or die("error on $str1");
-$i1=$rs1->rowcount();
+$str1 = "SELECT * FROM users WHERE uname ='$val2[1]' AND upword ='$val2[3]'";
+$rs1 = $bdd->query($str1) or die("error on $str1");
+$i1 = $rs1->rowcount();
 if ($i1>0){
 	$row1 = $rs1 -> fetch();
-	$cook = "$row1[0] : $row1[0]";
+	$cook = "$row1[1] : $row1[0]";
 	setcookie('login',$cook);
-	$str1 ="SELECT * FROM ulevel WHERE uid=$row1[0]";
-	$rs2=$bdd->query($str1) or die("error on $str1");
-	$row2=$rs2->fetch();
+	$str1 ="select * from ulevel where uid='$row1[0]'";
+	$rs2 = $bdd -> query ($str1) or die ("error on $str1");
+	$row2 = $rs2 ->fetch();
 
-	$cook="$row1[0] : $row1[6]";
+	$cook = "$row1[0] : $row1[2]";
 	setcookie('login',$cook);
-	$strj="<script type='text/javascript'> window.location.href='$row2[2]' </script>";
+	$strj = "<script type='text/javascript'> window.location.href='$row2[2]' </script>";
 	echo $strj;
 	//header("Location:$row2[2]");
 //echo "<h3> OK - $row2[2] </h3>";
