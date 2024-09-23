@@ -68,23 +68,23 @@
                             <a href="dashboard.php" class="nav-item nav-link">Dashboard</a>
                             <!-- <a href="service.php" class="nav-item nav-link">Services</a> -->
                             <!-- <a href="project.php" class="nav-item nav-link">Projects</a> -->
-                            <div class="nav-item dropdown">
+                            <!-- <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Client Portal</a>
                                 <div class="dropdown-menu m-0">
                                     <a href="customer.php" class="dropdown-item">Customer</a>
                                     <a href="creditbill.php" class="dropdown-item">Credit Bill</a>
                                     <a href="collection.php" class="dropdown-item">Collection</a>
-                                    <a href="report.php" class="dropdown-item">Report</a>
+                                    <a href="report.php" class="dropdown-item">Report</a> -->
                                     <!-- <a href="ccc.php" class="dropdown-item">ccc</a> -->
                                 </div>
                             </div>
                             <a href="contact.php" class="nav-item nav-link">Contact Us</a>
                             <a href="login.php" class="nav-item nav-link">Login</a>
                         </div>
-                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <!-- <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                             <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                             <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Start C3</a>
-                        </div>
+                        </div> -->
                     </div>
                 </nav>
             </div>
@@ -92,7 +92,7 @@
         <!-- Navbar & Hero End -->
 
         <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
@@ -107,7 +107,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Modal Search End -->
 
         <!-- Carousel Start -->

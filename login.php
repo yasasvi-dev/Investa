@@ -13,8 +13,8 @@ include "head.php";
 </head>
 
 
-<!-- <body class="img js-fullheight bg-light" style="background-image: url(img/credit.jpeg);">
-	<form class="card p-4" method="post" id="formfacid" style="background-color: rgba(255, 255, 255, 0.4);"> -->
+<body class="img js-fullheight bg-light" style="background-image: url(img/credit.jpeg);">
+	<form class="card p-4" method="post" id="formfacid" style="background-color: rgba(255, 255, 255, 0.4);">
 <!-- <section class=" section-padding bg-info bg-gradient" > -->
 
   <div class="container">
@@ -65,7 +65,7 @@ include "head.php";
 	wow.init();
 $(document).ready(function(e) {
 $("#loginform").submit( function (e){
-	// e.preventdefault();
+// e.preventdefault();
 	var vals =$(':input').map(function(){ return $(this).val() }).get();
 alert(vals);
 vals = vals.filter(function(value) {

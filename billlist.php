@@ -21,6 +21,6 @@ $button = array(
     
 );
 
-$tbl = $myclass -> showdatatablebtn($sql , $shindex , $valindex , $button ,'tableli');
+// $tbl = $myclass -> showdatatablebtn($sql , $shindex , $valindex , $button ,'tableli');
 echo $tbl;
 ?>

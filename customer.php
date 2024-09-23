@@ -18,12 +18,12 @@ $myclass=new sqlobj($bdd);
 $str1="select * from customer";
 $rec=$myclass->getlines($str1);
 echo  "count of $rec";
-$cid=$myclass->maxacno("customer",array(),"cno");
+$cno=$myclass->maxacno("customer",array(),"cno");
 echo "cno is $cid";
 $ck=$_COOKIE["login"]; echo  "cook is $ck";
-$ckarr =explode(":",$ck);echo "clevel is $ckarr[1]";
-$clevel=$ckarr[1];
-$str1="select * from clevel where clevel like('%$clevel%')";
+$ckarr =explode(":",$ck);echo "ulevel is $ckarr[1]";
+$ulevel=$ckarr[1];
+$str1="select * from ulevel where ulevel like('%$ulevel%')";
 $rs2=$bdd->query($str1) or die ("error on $str1");
     echo $str1;
 ?>
@@ -83,17 +83,17 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                             </div>
                             <a href="login.php" class="nav-item nav-link">Login</a>
                         </div>
-                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <!-- <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                             <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                             <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Start C3</a>
-                        </div>
+                        </div> -->
                     </div>
                 </nav>
             </div>
         </div>
         <!-- Navbar & Hero End -->
  <!-- Modal Search Start -->
- <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <!-- <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
@@ -108,7 +108,7 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Modal Search End -->
                
 <body class="img js-fullheight bg-light" style="background-image: url(img/credit.jpeg);">
@@ -216,7 +216,7 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
 </script>
 <!-- Footer Start -->
 <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
+            <div class="container py-0">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">

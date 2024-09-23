@@ -18,12 +18,12 @@ $myclass=new sqlobj($bdd);
 $str1="select * from account";
 $rec=$myclass->getlines($str1);
 echo  "count of $rec";
-$cid=$myclass->maxacno("account",array(),"ano");
+$cno=$myclass->maxacno("account",array(),"ano");
 echo "ano is $ano";
 $ck=$_COOKIE["login"]; echo  "cook is $ck";
 // $ckarr =explode(":",$ck);echo "clevel is $ckarr[1]";
 // $clevel=$ckarr[1];
-$str1="select * from clevel where clevel like('%$clevel%')";
+$str1="select * from ulevel where ulevel like('%$ulevel%')";
 $rs2=$bdd->query($str1) or die ("error on $str1");
     echo $str1;
 ?>
@@ -83,17 +83,17 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                             </div>
                             <a href="login.php" class="nav-item nav-link">Login</a>
                         </div>
-                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <!-- <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                             <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                             <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Start C3</a>
-                        </div>
+                        </div> -->
                     </div>
                 </nav>
             </div>
         </div>
         <!-- Navbar & Hero End -->
  <!-- Modal Search Start -->
- <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <!-- <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
@@ -108,7 +108,7 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Modal Search End -->
                
 <body class="img js-fullheight bg-light" style="background-image: url(img/credit.jpeg);">
@@ -176,10 +176,14 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                   <option value="collection">Collection</option>
                 </select>
             </div>
+            <br>
+            <br>
+</div>
                 
-                 <button class="bg-dark-500 hover:bg-dark-700 text-primary font-bold py-2 px-4 rounded shadow-md transition-all duration-200 ease-in-out"  type="button" name="button" onclick="submitbill()">submit</button>
+                 <button class="bg-dark-500 hover:bg-dark-700 text-primary font-bold py-2 px-4 rounded shadow-md transition-all duration-200 ease-in-out"
+                   type="button" name="button" onclick="submitbill()">submit</button>
               </form>
-              
+
               
          
 
@@ -212,19 +216,25 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
             var vals = $("input").map(function(){return $(this).val()}).get()
             alert("success");
             $.ajax({
-                type:'post',
+                type:'POST',
                 data:{pvals:vals},
                 url:'crbill.php',
                 success:function (json){ $("#creditdata").html(json)   }
             });
         }
+        function editroom(vals){
+        alert(vals)
+    }
+    function printroom(vals){
+        alert(vals)
+    }
         function showlist(){
           $.ajax({
-            type:'post',
+            type:'POST',
             data:{ },
             url:'billlist.php',
-            success:function(responce){
-              $("#tablelist").html(responce);
+            success:function(response){
+              $("#tablelist").html(response);
     }
   })
 }
@@ -234,7 +244,7 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
 </script>
 <!-- Footer Start -->
 <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
+            <div class="container py-0">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">

@@ -128,15 +128,14 @@ public function __construct($adocon)
 
 
 function showdatatablebtn($sqltext ,$shindex ,  $valindexs,$button ,$tbleid ){
-	 
-		// $sqltext  Query   ===  $shindex ==>indexes in show in tables 
-		//$valiindexes   query indexes for parameter of buttons  array(indexes)  ==== button  Buttons to click  arrary(["head"=>"head Name ","cback"=>"calbakname"  ,"option"=>"filed Number : crieteria : &&/|| # ......])     ( "option"=>"5:>:0:&&#....")   
-	  // $tableid = id of table 
-	$rs1 = $this->adocon->query($sqltext) or Die ("Error on $sqltext");
+	// $sqltext  Query   ===  $shindex ==>indexes in show in tables 
+	// $valiindexes   query indexes for parameter of buttons  array(indexes)  ==== button  Buttons to click  arrary(["head"=>"head Name ","cback"=>"calbakname"  ,"option"=>"filed Number : crieteria : &&/|| # ......])     ( "option"=>"5:>:0:&&#....")
+	// $tableid = id of table 
+	// $rs1 = $this->adocon->query($sqltext) or Die ("Error on $sqltext");
 	$strt ="<table id='$tbleid' class='table table-striped' style='width:100%'><thead><tr>";
     $j1=0;
 	$sumar=array();
-	for($i1=0;$i1<$rs1->columnCount();$i1++){
+	// for($i1=0;$i1<$rs1->columnCount();$i1++){
 		if($shindex[$j1]==$i1){
 		$strt .= "<th>" . $rs1->getColumnMeta($i1)['name'] ."</th>";
 		array_push($sumar,0);

@@ -79,10 +79,10 @@
                             </div>
                             <a href="login.php" class="nav-item nav-link">Login</a>
                         </div>
-                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <!-- <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                             <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                             <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Start C3</a>
-                        </div>
+                        </div> -->
                     </div>
                 </nav>
             </div>
@@ -91,7 +91,7 @@
 
 
         <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>  -->
         <!-- Modal Search End -->
         <div class="carousel-caption-inner text-center p-1">
         <h1 class="display-2 text-capitalize text-info mb-1">dashboard</h1></div>
