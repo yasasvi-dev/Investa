@@ -8,7 +8,6 @@
 <?php
 include "head.php";
 ?>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <?php 
@@ -19,7 +18,7 @@ $str1="select * from customer";
 $rec=$myclass->getlines($str1);
 echo  "count of $rec";
 $cno=$myclass->maxacno("customer",array(),"cno");
-echo "cno is $cid";
+echo "cno is $cno";
 $ck=$_COOKIE["login"]; echo  "cook is $ck";
 $ckarr =explode(":",$ck);echo "ulevel is $ckarr[1]";
 $ulevel=$ckarr[1];
@@ -78,7 +77,7 @@ $rs2=$bdd->query($str1) or die ("error on $str1");
                                     <a href="creditbill.php" class="dropdown-item">Credit Bill</a>
                                     <a href="collection.php" class="dropdown-item">Collection</a>
                                     <a href="report.php" class="dropdown-item">Report</a>
-                                    <a href="ccc.php" class="dropdown-item">ccc</a>
+                                    <!-- <a href="ccc.php" class="dropdown-item">ccc</a> -->
                                 </div>
                             </div>
                             <a href="login.php" class="nav-item nav-link">Login</a>
